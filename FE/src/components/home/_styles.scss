@@ -1,0 +1,46 @@
+.home {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .jumbotron {
+    background-color: $yellow;
+    text-align: center;
+
+    &:hover {
+      animation-name: home;
+      animation-duration: .5s;
+      opacity: .7;
+    }
+
+    h2 {
+      color: black;
+      margin-bottom: 3rem;
+    }
+
+    .fa-taxi {
+      font-size: 20rem;
+      color: black;
+    }
+  }
+
+  .car2go {
+    .jumbotron {
+      background-color: black;
+
+      h2 {
+        color: $yellow;
+      }
+    }
+    .fa-taxi {
+      color: $yellow;
+    }
+  }
+}
+
+@keyframes home {
+    0%     { opacity: 1 }
+    100%   { opacity: .7 }
+}

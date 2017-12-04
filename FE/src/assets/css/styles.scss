@@ -1,0 +1,12 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@import "_bootstrap.scss";
+@import "_colors.scss";
+@import "_base.scss";
+
+@import "../../components/header/_styles.scss";
+@import "../../components/home/_styles.scss";
+@import "../../components/mytaxi/_styles.scss";
+@import "../../components/car2go/_styles.scss";

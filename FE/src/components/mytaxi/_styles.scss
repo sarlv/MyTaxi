@@ -1,0 +1,19 @@
+.fa.fa-spinner {
+  font-size: 42px;
+}
+dt {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  span {
+    text-transform: lowercase;
+    margin-left: 5px;
+  }
+}
+.active {
+  color: $green;
+}
+.inactive {
+  color: $red;
+}
